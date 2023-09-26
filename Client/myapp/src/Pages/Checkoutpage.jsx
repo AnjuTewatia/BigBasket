@@ -67,15 +67,15 @@ const Checkout = () => {
 
   return (
     <Box>
-        <Box marginBottom={"40px"}>
-        <Crousel/>
-        </Box>
+      <Box marginBottom={"40px"}>
+        <Crousel />
+      </Box>
       <form
         onSubmit={handleSubmit}
         style={{
           width: "80%",
           margin: "auto",
-        
+
           // textalign: "left",
           // bgGradient="linear(to-t, green.200, pink.500)"
           boxShadow:
@@ -233,7 +233,7 @@ const Checkout = () => {
             width={"100%"}
             height={"470px"}
             // border="2px solid blue"
-            bgGradient="radial(gray.300, yellow.400, pink.200)"
+            // bgGradient="radial(gray.300, yellow.400, pink.200)"
           >
             <Image
               width="100%"
